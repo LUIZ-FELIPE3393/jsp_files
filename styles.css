@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.f-anton {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #354145;
+    margin: 0;
+}
+
+.heading {
+    color: white;
+    background-color: #17C2F0;
+    border-color: #17C2F0;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    outline: 0px;
+    padding: 0%;
+
+}
+
+.container {
+    border-radius: 15px;
+    background-color: #458B9E;
+    border-color: #458B9E;
+    border-style: solid;
+    border-width: 5mm;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+
+}
+
+.f-roboto {
+    color: #212111;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    color: #ffffdf;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+label {
+    max-width: 250px;
+}
+
+.input-text {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+    padding-left: 5px;
+    left: 500px;
+    height: 30px;
+    width: 200px;
+    background-color: #113141;
+    color: white;
+    border: 5px solid;
+    border-color: #113141;
+    border-radius: 2px;
+    outline: none;
+    display: inline-block;
+    position:fixed;
+}
+
+.input-text:focus {
+    border: 3px solid #354145;
+}
+
+.input-submit {
+    margin-left: 90px;
+    height: 40px;
+    width: 120px;
+    background-color: #17C2F0;
+    color: #454105;
+    padding: 5pxs;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 7px solid;
+    border-color: #17C2F0;
+    border-radius: 5px;
+    cursor:pointer;
+    transition-duration: 0.2s;
+    
+}
+
+.input-submit:hover {
+    background-color: #006480;
+    border-color: #006480;
+    color: #fff200; 
+}
